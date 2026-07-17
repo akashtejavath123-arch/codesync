@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@layer base{
+    input, textarea{
+        @apply  w-full rounded-md outline-none px-3 py-1 bg-[#1e1f2b] text-sm border border-gray-600
+    }
+}
+
+/* Custom scrollbar for CodeMirror */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: #35b064;
+  border-radius: 10px;
+}
+
